@@ -1,3 +1,13 @@
+# Patched recovery for SM-X200
+
+Download it from the releases here: https://github.com/gabeluci/Patch-Recovery-SM-X200/releases/tag/23409832137
+
+This tablet does not require a patched vbmeta and will cause problems if you try (ask me how I know).
+
+___
+
+Original readme:
+
 # Similar script
 You can also refer this [script](https://github.com/engineer4t/fastboot-patcher)
 
@@ -12,11 +22,10 @@ This CI service patches recovery images of Samsung to enable Fastbootd. Based on
 - The Patching process will start
 - A Patched-Recovery.zip will be uploaded at the end of the process. Download it and extract your patched recovery image. The Image will already also be repacked to .tar for flashing directly through Odin
 ![](https://s3.bmp.ovh/imgs/2022/04/19/91ef3a3ee9255e9c.png)
-- Flash vbmeta_disabled_r if needed
+- ~~Flash vbmeta_disabled_r if needed~~ (Don't!)
 
 ```
 ODIN AP Slot: Recovery.tar.md5
-ODIN User Slot: vbmeta_disabled_r.tar
 ```
 
 # Important note
