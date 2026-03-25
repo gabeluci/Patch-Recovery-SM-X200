@@ -2,7 +2,8 @@
 
 Download it from the releases here: https://github.com/gabeluci/Patch-Recovery-SM-X200/releases/tag/23409832137
 
-This tablet does not require a patched vbmeta and will cause problems if you try (ask me how I know).
+This tablet does not require a patched vbmeta and will soft-brick if you do. If you've done this, you will have to wait until the battery dies, then plug it into a computer while holding both volume buttons.
+This should put it into download mode where you can flash a working ROM.
 
 ___
 
